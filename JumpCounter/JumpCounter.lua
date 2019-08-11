@@ -14,12 +14,12 @@ end );
 
 -- slash command
 for i, v in ipairs({"jc", "jumpcounter", "jumpcount"}) do
-	_G["SLASH_JUMPCOUNTER" .. i] = "/" .. v
+  _G["SLASH_JUMPCOUNTER" .. i] = "/" .. v
 end
 
 SlashCmdList.JUMPCOUNTER = function()
     if JumpCounter == nil then
         JumpCounter = 0
     end
-	DEFAULT_CHAT_FRAME:AddMessage("You have jumped " .. JumpCounter .. " times.");
+  DEFAULT_CHAT_FRAME:AddMessage("You have jumped " .. JumpCounter .. " times.");
 end
