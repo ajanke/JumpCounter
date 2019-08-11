@@ -2,7 +2,7 @@
 -- Name: JumpCounter
 -- Author: Aic
 -- Description: Counts the number of times you jump
--- Version: 0.1
+-- Version: 1.0
 
 hooksecurefunc( "JumpOrAscendStart", function()
   if JumpCounter == nil then
