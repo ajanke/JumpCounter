@@ -18,8 +18,8 @@ for i, v in ipairs({"jc", "jumpcounter", "jumpcount"}) do
 end
 
 SlashCmdList.JUMPCOUNTER = function()
-    if JumpCounter == nil then
-        JumpCounter = 0
-    end
+  if JumpCounter == nil then
+    JumpCounter = 0
+  end
   DEFAULT_CHAT_FRAME:AddMessage("You have jumped " .. JumpCounter .. " times.");
 end
