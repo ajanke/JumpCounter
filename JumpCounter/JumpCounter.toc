@@ -1,0 +1,8 @@
+## Interface: 11302
+## Title: JumpCounter
+## Author: Aic
+## Notes: Counts the number of times you jump
+## Version: 0.1
+## SavedVariablesPerCharacter: JumpCounter
+
+JumpCounter.lua
