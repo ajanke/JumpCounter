@@ -17,4 +17,4 @@ To reset your jump count to zero, type any of the following commands
 
 
 # Bugs
-If you encountere any bugs feel free to create a new issue and I will try to address it as quickly as possible: https://github.com/ajanke/JumpCounter/issues
+If you encounter any bugs feel free to create a new issue and I will try to address it as quickly as possible: https://github.com/ajanke/JumpCounter/issues
