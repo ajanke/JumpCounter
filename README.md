@@ -1,5 +1,5 @@
 # JumpCounter
-Counts the number of jumps each of your World of Warcraft Classic characters make.
+Counts the number of jumps each of your World of Warcraft Classic characters make. Now with support for Data Broker visualizers (such as Chocolate Bar)
 
 To install visit https://github.com/ajanke/JumpCounter/releases and download the newest version. Unzip that file into your `..\World of Warcraft\_classic_\Interface\AddOns` directory.
 
