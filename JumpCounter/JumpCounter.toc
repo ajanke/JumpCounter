@@ -2,7 +2,14 @@
 ## Title: JumpCounter
 ## Author: Aic
 ## Notes: Counts the number of times you jump
-## Version: 1.1
+## Version: 1.2
 ## SavedVariablesPerCharacter: JumpCounter
+
+# Libraries for data broker
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+
+# This must be loaded after LibStub and CallbackHandler
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
 
 JumpCounter.lua
