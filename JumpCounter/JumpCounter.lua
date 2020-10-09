@@ -32,7 +32,7 @@ function dataObj:OnEnter()
   GameTooltip:SetPoint("TOPLEFT", self, "BOTTOMLEFT")
   GameTooltip:ClearLines()
   dataObj.OnTooltipShow(GameTooltip)
-  GameTooltip.Show()
+  GameTooltip:Show()
 end
 
 function dataObj:OnLeave()
