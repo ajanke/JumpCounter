@@ -39,11 +39,13 @@ function dataObj:OnLeave()
   GameTooltip:Hide()
 end
 
-hooksecurefunc( "AscendStop", function()
+hooksecurefunc( "JumpOrAscendStart", function()
   if JumpCounter == nil then
     JumpCounter = 0
   else
-    JumpCounter = JumpCounter + 1
+    if not IsFalling() then
+      JumpCounter = JumpCounter + 1
+    end
     if JumpCounter == 10 or JumpCounter == 100 or JumpCounter == 1000 or mod(JumpCounter, 5000) == 0 then
       -- Formatting taken from JumpsCount addon by boolbazaur https://www.curseforge.com/wow/addons/jumps-count
       DEFAULT_CHAT_FRAME:AddMessage("|TInterface\\Icons\\INV_Gizmo_supersappercharge:32|t |cFFDAA520 Congratulations, It's your " .. JumpCounter .. "th Jump! |TInterface\\Icons\\INV_Gizmo_supersappercharge:32|t")
