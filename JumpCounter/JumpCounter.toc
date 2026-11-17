@@ -1,8 +1,10 @@
-## Interface: 11305
+## Interface: 16001
 ## Title: JumpCounter
 ## Author: Aic
 ## Notes: Counts the number of times you jump
-## Version: 1.2
+## Version: 2.0
+## Category: Miscellaneous
+## IconTexture: Interface\Icons\INV_Gizmo_supersappercharge
 ## SavedVariablesPerCharacter: JumpCounter
 
 # Libraries for data broker

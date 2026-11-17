@@ -1,7 +1,7 @@
 # JumpCounter
-Counts the number of jumps each of your World of Warcraft Classic characters make. Now with support for Data Broker visualizers (such as Chocolate Bar)
+Counts the number of jumps each of your World of Warcraft: Forever characters make. Now with support for Data Broker visualizers (such as Chocolate Bar)
 
-To install visit https://github.com/ajanke/JumpCounter/releases and download the newest version. Unzip that file into your `..\World of Warcraft\_classic_\Interface\AddOns` directory.
+To install visit https://github.com/ajanke/JumpCounter/releases and download the newest version. Unzip that file into the `Interface\AddOns` directory of your WoW Forever installation.
 
 For the character you are logged into WoW with, type any of the following commands to display your jump count
 
